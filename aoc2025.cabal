@@ -68,6 +68,8 @@ executable aoc2025
         Day2Part2
         Day3Part1
         Day3Part2
+        Day4Part1
+        Day4Part2
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -78,7 +80,8 @@ executable aoc2025
         split,
         bytestring,
         stringsearch,
-        vector
+        vector,
+        containers
 
     -- Directories containing source files.
     hs-source-dirs:   app
