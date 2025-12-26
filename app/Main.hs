@@ -1,7 +1,7 @@
 module Main (main) where
 
 --just import the correct module and alter then puzzle-input str to solve the corresponding puzzle
-import Day4Part1
+import Day4Part2
 
 main :: IO ()
 main = do 

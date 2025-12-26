@@ -1,7 +1,7 @@
 module Day4Part1 (
     solvePuzzle,
     parseInput,
-    parseText
+    isVertexGood
 ) where
 
 import Data.Graph
