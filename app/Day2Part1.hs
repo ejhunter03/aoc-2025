@@ -1,6 +1,7 @@
 module Day2Part1 (
     solvePuzzle,
     parseInput,
+    parsePair,
     genRange
 ) where
 
