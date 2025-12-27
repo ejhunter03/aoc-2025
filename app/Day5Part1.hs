@@ -51,7 +51,7 @@ cleanSearchVec' mvec = do
                     | otherwise = do
                         (currLB, currUB) <- MV.read mvec writeIdx
                         (nextLB, nextUB) <- MV.read mvec readIdx
-                        if currUB > nextLB
+                        if currUB >= nextLB
                             then do
                                 let newUB = max currUB nextUB
                                 let newLB = currLB

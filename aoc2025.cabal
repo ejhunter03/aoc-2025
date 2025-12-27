@@ -71,6 +71,7 @@ executable aoc2025
         Day4Part1
         Day4Part2
         Day5Part1
+        Day5Part2
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
