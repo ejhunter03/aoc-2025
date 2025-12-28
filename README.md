@@ -1,0 +1,2 @@
+### Advent of Code 2025 in Haskell
+Handwritten (if such a thing can be believed in the year 2025). In haskell because I wanted a change of pace. Some of the solutions are decent, some are pretty bad. Do be careful with day 5. I implemented two solutions. One uses a hashset and is slow and very memory innefficient (like will run out of memory and crash). It's a shame it would have been better than the other solution if all of the ranges only contained like 5 numbers.
