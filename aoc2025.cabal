@@ -74,6 +74,8 @@ executable aoc2025
         Day5Part2
         Day6Part1
         Day6Part2
+        Day7Part1
+        Day7Part2
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -87,7 +89,9 @@ executable aoc2025
         vector,
         vector-algorithms,
         containers,
-        unordered-containers
+        unordered-containers,
+        fgl,
+        mtl
 
     -- Directories containing source files.
     hs-source-dirs:   app
