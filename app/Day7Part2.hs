@@ -12,6 +12,7 @@ import qualified Data.Graph.Inductive.Graph as FGL
 
 type D7Gr = Gr Char Char
 type GrAccState = IntMap.IntMap Int
+--in hindsigh fgl was way overkill and prob makes this slow af
 
 --node id
 --this function can crash and I'm a bit lazy to do some state transformer lifting business
